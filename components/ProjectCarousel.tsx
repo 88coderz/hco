@@ -53,7 +53,7 @@ const projectImages: ProjectImage[] = [
   },
   {
     id: 6,
-    src: "/finished-back", // Replace with actual image path
+    src: "/finished-back.png", // Replace with actual image path
     alt: "Baseboard installation project",
     title: "Baseboard Installation",
     description: "Custom baseboard installation throughout a new home.",
