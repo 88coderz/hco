@@ -37,24 +37,6 @@ export default function NavigationBar() {
           </div>
         </Navbar.Brand>
 
-        {/* Navbar toggle for mobile */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-        {/* Navigation links */}
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto">
-            <Nav.Link as={Link} href="/#services">
-              Services
-            </Nav.Link>
-            <Nav.Link as={Link} href="/#service-areas">
-              Service Areas
-            </Nav.Link>
-            <Nav.Link as={Link} href="/#contact">
-              Contact
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-
         {/* Phone number on the right */}
         <Nav.Link
           href="tel:3253385978"
