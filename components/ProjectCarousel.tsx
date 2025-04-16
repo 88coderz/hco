@@ -14,21 +14,20 @@ type ProjectImage = {
 }
 
 // Create an array of project images
-// Junior developers can easily add, remove, or modify images here
-const projectImages: ProjectImage[] = [
+ const projectImages: ProjectImage[] = [
   {
     id: 1,
     src: "/oldHouse2.png", // Replace with actual image path
-    alt: "Interior painting project in Hamlin",
-    title: "Interior Painting",
+    alt: "Drywall installation and interior painting project in Hamlin",
+    title: "Professional home and shed improvements",
     description: "Complete interior painting of a residential home in Hamlin.",
   },
   {
     id: 2,
     src: "/oldHouse1.png", // Replace with actual image path
     alt: "Drywall installation project",
-    title: "Drywall Installation",
-    description: "New drywall installation for a commercial building.",
+    title: "Home Renovations and exterior painting",
+    description: " and .",
   },
   {
     id: 3,
@@ -42,35 +41,35 @@ const projectImages: ProjectImage[] = [
     src: "/working-back.png", // Replace with actual image path
     alt: "Exterior painting project",
     title: "Exterior Painting",
-    description: "Complete exterior painting of a home in Anson.",
+    description: "Complete exterior painting of a homes in and around Hamlin, Texas.",
   },
   {
     id: 5,
     src: "/working-side.png", // Replace with actual image path
-    alt: "Lighting installation project",
-    title: "Lighting Installation",
-    description: "Modern lighting installation for a kitchen remodel.",
+    alt: "Repairs and painting services around Hamlin, Texas 79520",
+    title: "Kitchen Remodeling and upgrades",
+    description: "Modern kitchen remodels.",
   },
   {
     id: 6,
     src: "/finished-back.png", // Replace with actual image path
-    alt: "Baseboard installation project",
-    title: "Baseboard Installation",
-    description: "Custom baseboard installation throughout a new home.",
+    alt: "Home Repairs and professional painting and brick washing around Hamlin, Texas 79520",
+    title: "Home Repairs and interior/exterior painting",
+    description: "Making improvements throughout a your home.",
   },
   {
     id: 7,
     src: "/finished-deck.png", // Replace with actual image path
     alt: "Shed repair project",
     title: "Shed Repair",
-    description: "Complete renovation of an outdoor storage shed.",
+    description: "Complete renovation and repairs of your storage shed.",
   },
   {
     id: 8,
     src: "/flooring.png", // Replace with actual image path
-    alt: "Garage door installation",
+    alt: "Garage repairs around Hamlin, Texas",
     title: "Garage Renovation",
-    description: "Garage renovation including new door installation.",
+    description: "Garage renovation and repairs.",
   },
 ]
 
@@ -88,7 +87,7 @@ export default function ProjectCarousel() {
     <section id="projects" className="py-5">
       <Container>
         <h2 className="text-center mb-4" style={{ color: "#730d23" }}>
-          Our Projects
+          
         </h2>
 
         <Carousel interval={isPaused ? null : 5000} indicators={true} controls={true} touch={true} pause="hover">
@@ -136,8 +135,8 @@ export default function ProjectCarousel() {
         </Carousel>
 
         <div className="text-center mt-4">
-          <p className="text-muted mb-2">Click on an image to pause the slideshow. Swipe left or right to navigate.</p>
-          <p className="text-muted">Showing {projectImages.length} of our recent projects</p>
+          <p className="text-muted mb-2">Thank you for over 20 years in business</p>
+          <p className="text-muted">Give us a call for a complete list of our services</p>
         </div>
       </Container>
     </section>
