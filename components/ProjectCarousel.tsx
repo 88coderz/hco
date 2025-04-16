@@ -33,8 +33,8 @@ type ProjectImage = {
     id: 3,
     src: "/finished-back.png", // Replace with actual image path
     alt: "Door installation project",
-    title: "Door Installation",
-    description: "Custom door installation for a residential client.",
+    title: "Door and Window Installations and repairs",
+    description: "Door and Window repairs and installations.",
   },
   {
     id: 4,
@@ -61,15 +61,15 @@ type ProjectImage = {
     id: 7,
     src: "/finished-deck.png", // Replace with actual image path
     alt: "Shed repair project",
-    title: "Shed Repair",
+    title: "Shed shed roof repairs",
     description: "Complete renovation and repairs of your storage shed.",
   },
   {
     id: 8,
     src: "/flooring.png", // Replace with actual image path
     alt: "Garage repairs around Hamlin, Texas",
-    title: "Garage Renovation",
-    description: "Garage renovation and repairs.",
+    title: "Garage Renovations and repairs",
+    description: "Get ready for summer 2025!",
   },
 ]
 
