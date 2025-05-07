@@ -86,8 +86,8 @@ export default function ProjectCarousel() {
   return (
     <section id="projects" className="py-5">
       <Container>
-        <h2 className="text-center mb-4" style={{ color: "#730d23" }}>
-          
+        <h2 className="text-center mb-4" style={{ color: "#35880e" }}>
+          Projects
         </h2>
 
         <Carousel interval={isPaused ? null : 5000} indicators={true} controls={true} touch={true} pause="hover">

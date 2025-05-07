@@ -20,7 +20,7 @@ export default function ServicesSection() {
   return (
     <section id="services" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
       <Container>
-        <h2 className="text-center mb-4" style={{ color: "#730d23" }}>
+        <h2 className="text-center mb-4" style={{ color: "#35880e" }}>
           Our Services
         </h2>
 

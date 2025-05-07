@@ -11,7 +11,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
       <Container>
-        <h2 className="text-center mb-4" style={{ color: "#730d23" }}>
+        <h2 className="text-center mb-4" style={{ color: "#35880e" }}>
           Contact Us
         </h2>
 
@@ -33,7 +33,7 @@ export default function ContactSection() {
               <Card.Body className="text-center">
                 <h3 className="h5 mb-3">Phone</h3>
                 <p className="mb-0">
-                  <a href="tel:3253385978" onClick={handlePhoneClick} style={{ color: "#730d23", fontWeight: "bold" }}>
+                  <a href="tel:3253385978" onClick={handlePhoneClick} style={{ color: "#35880e", fontWeight: "bold" }}>
                     (325) 338-5978
                   </a>
                 </p>

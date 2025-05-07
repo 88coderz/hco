@@ -32,7 +32,7 @@ export default function ServiceAreasSection() {
   return (
     <section id="service-areas" className="py-5">
       <Container>
-        <h2 className="text-center mb-4" style={{ color: "#730d23" }}>
+        <h2 className="text-center mb-4" style={{ color: "#35880e" }}>
           Service Areas
         </h2>
         <p className="text-center mb-4">Serving communities around 79520</p>

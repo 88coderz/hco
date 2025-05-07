@@ -28,8 +28,8 @@ export default function NavigationBar() {
           {/* Placeholder for logo - replace with actual logo later */}
           <div style={{ width: "150px", height: "50px", position: "relative" }}>
             <Image
-              src="/hcoLogo.PNG"
-              alt="Hamlin Construction Company Logo"
+              src="/hamlintexasconstructioncompany.jpeg"
+              alt="Hamlin Texas Construction Company Logo"
               fill
               style={{ objectFit: "contain" }}
               priority
@@ -42,7 +42,7 @@ export default function NavigationBar() {
           href="tel:3253385978"
           onClick={handlePhoneClick}
           className="ms-lg-auto fw-bold"
-          style={{ color: "#730d23" }}
+          style={{ color: "#35880e" }}
         >
           (325) 338-5978
         </Nav.Link>
